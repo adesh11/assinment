@@ -6,3 +6,39 @@
 body{
     font-family: "Merriweather", serif;
 }
+.banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.banner-image{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.banner .content{
+    position: absolute;
+    color: white;
+    margin-top: 120px;
+}
+.content .new{
+    font-weight: 200;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.content .first{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 160px;
+}
+.content .second{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-left: 130px;
+    display: inline;
+}
+.content .third{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-left: 30px;
+}
